@@ -1,0 +1,57 @@
+body {
+  background-color: sandybrown;
+}
+
+#to-do-list {
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 20px auto;
+}
+input {
+  color: black;
+  background-color: lightblue;
+  border-radius: 20px;
+  border-color: black;
+  transition: 0.7s;
+}
+input:hover {
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+input:active {
+  background-color: white;
+  border-color: black;
+  border-style: dotted;
+}
+
+h2 {
+  font: bold;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 8px;
+  color: rgb(red, green, blue);
+}
+button {
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  transition: 0.8s;
+}
+button:hover {
+  color: blue;
+  background-color: white;
+  transition: 0.5s;
+}
+button:active {
+  background-color: blue;
+  color: white;
+  transition-duration: 0ms;
+}
